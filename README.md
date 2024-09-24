@@ -11,3 +11,13 @@
 - Nuxt Fonts
 - Nuxt Image
 - VueUse
+
+## Use as Template
+
+```sh
+npx nuxi@latest init ddt-app -t github:larrasu/nuxter-starter
+```
+
+```sh
+bunx nuxi@latest init ddt-app -t github:larrasu/nuxter-starter
+```

@@ -15,9 +15,9 @@
 ## Use as Template
 
 ```sh
-npx nuxi@latest init ddt-app -t github:larrasu/nuxter-starter
+npx nuxi@latest init -t github:larrasu/nuxter-starter <app-name>
 ```
 
 ```sh
-bunx nuxi@latest init ddt-app -t github:larrasu/nuxter-starter
+bunx nuxi@latest init -t github:larrasu/nuxter-starter <app-name>
 ```

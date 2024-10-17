@@ -1,6 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    rootAttrs: {
+      'vaul-drawer-wrapper': '',
+      'class': 'bg-[var(--ui-bg)]',
+    },
+  },
   compatibilityDate: '2024-04-03',
+  css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
   future: { compatibilityVersion: 4 },
   modules: [
@@ -9,7 +16,6 @@ export default defineNuxtConfig({
     'nuxt-auth-utils',
     '@nuxt/content',
     '@nuxt/ui',
-    '@nuxt/fonts',
     '@nuxt/image',
     '@vueuse/nuxt',
   ],

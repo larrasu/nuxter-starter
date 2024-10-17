@@ -1,9 +1,17 @@
+<script setup lang="ts">
+const { site } = useAppConfig()
+
+useHead({
+  titleTemplate: title => title ? `${title} | ${site.name}` : site.name,
+})
+</script>
+
 <template>
-  <div>
+  <UApp>
     <NuxtLoadingIndicator />
-    
+
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-  </div>
+  </UApp>
 </template>
